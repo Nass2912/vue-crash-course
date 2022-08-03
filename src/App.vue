@@ -14,14 +14,22 @@
     </div>
 
     <CustomerView name="greg" age="25" work="SE" />
+
+    <GreetView />
+
+    <RegisterView />
   </div>
 </template>
 
 <script>
 import CustomerView from "./components/CustomerView.vue";
 
+import GreetView from "./components/GreetView.vue";
+
+import RegisterView from "./components/RegisterView.vue";
+
 export default {
-  components: { CustomerView },
+  components: { CustomerView, GreetView, RegisterView },
 };
 </script>
 
