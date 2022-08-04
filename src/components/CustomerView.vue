@@ -33,7 +33,7 @@ export default {
   name: "CustomerView",
   props: {
     name: { type: String, required: true },
-    age: Number,
+    age: String,
     work: String,
   },
 

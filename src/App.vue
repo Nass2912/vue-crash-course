@@ -18,6 +18,8 @@
     <GreetView />
 
     <RegisterView />
+
+    <AuthenticateView />
   </div>
 </template>
 
@@ -28,8 +30,10 @@ import GreetView from "./components/GreetView.vue";
 
 import RegisterView from "./components/RegisterView.vue";
 
+import AuthenticateView from "./components/AuthenticateView.vue";
+
 export default {
-  components: { CustomerView, GreetView, RegisterView },
+  components: { CustomerView, GreetView, RegisterView, AuthenticateView },
 };
 </script>
 
